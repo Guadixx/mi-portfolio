@@ -113,9 +113,9 @@
   }
 
   .project-card:hover .project-name a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
