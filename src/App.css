@@ -1,0 +1,14 @@
+main {
+  padding-top: var(--nav-height);
+}
+
+section {
+  padding: 3rem 3rem;
+  scroll-margin-top: var(--nav-height);
+}
+
+@media (max-width: 640px) {
+  section {
+    padding: 4rem 1.5rem;
+  }
+}
