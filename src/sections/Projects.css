@@ -81,16 +81,11 @@
   padding-top: 1.25rem;
 }
 
-.project-links a {
-  color: var(--color-accent);
-  font-weight: 600;
-  font-size: 0.9rem;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.project-links a:hover {
-  text-decoration-thickness: 2px;
+.project-name a,
+.project-name a:visited,
+.project-name a:hover {
+  color: var(--color-ink);
+  text-decoration: none;
 }
 
 .project-links a:focus-visible {
@@ -118,10 +113,9 @@
   }
 
   .project-card:hover .project-name a {
-    color: var(--color-accent);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
