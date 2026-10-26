@@ -7,8 +7,10 @@ const EXPERIENCE = [
     company: 'Accenture',
     period: '2025 — Now',
     description: [
-      'Built and deployed A/B test variants in Adobe Target, applying strong frontend expertise to ensure high-quality implementations.',
+      'Built and deployed A/B test variants and split-URL/redirect experiments in Adobe Target, applying strong frontend expertise to ensure high-quality implementations.',
       'Recreated Figma designs in native JavaScript, ensuring pixel-perfect layouts and consistent behavior across environments.',
+      'Built audience segmentation to target specific user groups and enable more precise personalization.',
+      'Handled dynamic and asynchronous page content so variations render correctly without disrupting the user experience.',
       'Inspected and captured analytics events using Omnibug, ensuring accurate event specification during QA.',
     ],
     technologies: ['JavaScript (ES6)', 'Adobe Target', 'HTML', 'CSS', 'Figma', 'Omnibug', 'Google Tag Assistant', 'Bootstrap', 'Jira'],
